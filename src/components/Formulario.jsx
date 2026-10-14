@@ -238,11 +238,11 @@ export default function Formulario({ servicioPreseleccionado }) {
       <div className="container py-4">
         {/* Encabezado */}
         <div className="text-center mb-5">
-          <span className="section-tag">Sesión 3 • Estados & Validaciones</span>
+          <span className="section-tag">Cotización en Línea</span>
           <h2 className="display-5 fw-bold mb-3">Solicitar Cotización de Proyecto</h2>
           <p className="text-muted lead col-lg-8 mx-auto">
-            Completa el siguiente formulario reactivo. Todos los campos son validados en tiempo real 
-            mediante el hook <code>useState</code> de React y estilos de Bootstrap.
+            Completa el siguiente formulario para cotizar tu proyecto. Todos los campos cuentan con validación 
+            en tiempo real y confirmación instantánea.
           </p>
         </div>
 

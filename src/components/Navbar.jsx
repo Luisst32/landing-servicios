@@ -13,7 +13,7 @@ export default function Navbar({ onCotizarClick }) {
             Dev<span className="text-gradient">Pulse</span>
           </span>
           <span className="badge badge-custom-tech d-none d-sm-inline-block ms-1" style={{ fontSize: '0.7rem' }}>
-            UNEMI 2026
+            Software Studio
           </span>
         </a>
 
