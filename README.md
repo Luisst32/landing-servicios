@@ -1,21 +1,12 @@
 # DevPulse Solutions — Landing Page con React y Bootstrap
 
-> **Universidad Estatal de Milagro (UNEMI)**  
-> **Facultad de Ciencias e Ingenierías**  
-> **Carrera:** Ingeniería de Software (Modalidad Presencial)  
-> **Asignatura:** Desarrollo Web  
-> **Guía de Práctica Nº 2:** `G002-S06-SOFTWARE2019-PRESENCIAL-DESARROLLO WEB-A1`  
-> **Unidad 2:** Frameworks de Desarrollo de Aplicaciones Web y Móviles (React + Bootstrap)
-
----
-
-## 📌 1. Descripción del Proyecto
+## 1. Descripción del Proyecto
 
 **DevPulse Solutions** es una Landing Page moderna, reactiva y totalmente responsiva diseñada para una empresa de consultoría y desarrollo de software. El proyecto implementa una arquitectura basada en **componentes funcionales en JSX**, estilizada e integrada con **Bootstrap 5.3** y **Bootstrap Icons**, incorporando un formulario interactivo con gestión de estados locales mediante el hook `useState` y validaciones en tiempo real.
 
 ---
 
-## 🚀 2. Tecnologías Utilizadas
+## 2. Tecnologías Utilizadas
 
 - **Framework Frontend:** React 19.2 (Componentes funcionales, Hooks)
 - **Empaquetador y Servidor de Desarrollo:** Vite 8.3
@@ -26,9 +17,9 @@
 
 ---
 
-## 🏗️ 3. Estructura y Organización de Componentes
+## 3. Estructura y Organización de Componentes
 
-Siguiendo la estructura modular requerida por la guía de práctica:
+Organización modular del proyecto:
 
 ```
 landing-servicios/
@@ -41,7 +32,7 @@ landing-servicios/
 │   │   ├── Servicios.jsx       # Catálogo de servicios con filtrado interactivo por categorías
 │   │   ├── Informacion.jsx     # Metodología ágil, pilares de ingeniería, flujo de 4 fases y testimonios
 │   │   ├── Formulario.jsx      # Formulario reactivo con useState, validaciones dinámicas e historial
-│   │   └── Footer.jsx          # Pie de página institucional con créditos académicos UNEMI y contacto
+│   │   └── Footer.jsx          # Pie de página con información de contacto y enlaces
 │   ├── App.jsx                 # Componente raíz que orquesta los componentes y sincroniza estados
 │   ├── index.css               # Tokens de diseño, gradientes y personalizaciones sobre Bootstrap
 │   └── main.jsx                # Punto de entrada e importación de los bundles de Bootstrap
@@ -52,20 +43,20 @@ landing-servicios/
 
 ---
 
-## ✨ 4. Funcionalidades Implementadas
+## 4. Funcionalidades Implementadas
 
-### 🎯 Sesión 1 — React y Componentes
+### Componentes y Estructura en React
 - **Componentes Funcionales Modulares:** Separación de responsabilidades en componentes reutilizables (`Navbar`, `Hero`, `Servicios`, `Informacion`, `Formulario`, `Footer`).
 - **Paso de Props y Callbacks:** Comunicación entre componentes para que al hacer clic en *"Cotizar este Servicio"* dentro de una tarjeta, la página se desplace suavemente hacia el formulario y seleccione automáticamente dicho servicio en el menú desplegable.
 - **Sintaxis JSX Limpia:** Renderizado condicional, mapeo de listas (`.map()`) con identificadores únicos (`key`) y eventos sintéticos de React.
 
-### 🎨 Sesión 2 — Integración de Bootstrap
+### Integración de Bootstrap 5
 - **Diseño Mobile-First y Totalmente Responsivo:** Adaptable a dispositivos móviles, tablets, portátiles y pantallas de escritorio gracias al sistema de rejilla (`container`, `row`, `col-md-*`, `col-lg-*`).
 - **Componentes Nativos de Bootstrap:** Uso de barra colapsable (`navbar-toggler`), tarjetas (`card`), insignias (`badge`), botones (`btn`), tablas responsivas (`table-responsive`) y alertas de Bootstrap.
-- **Iconografía Consistente:** Integración de más de 20 iconos vectoriales de `bootstrap-icons`.
+- **Iconografía Consistente:** Integración de iconos vectoriales de `bootstrap-icons`.
 
-### 🛡️ Sesión 3 — Estados y Validaciones (`useState`)
-El formulario implementa un riguroso sistema de validaciones en dos fases (en tiempo real mediante `onBlur`/`onChange` y globalmente en `onSubmit`):
+### Estados y Validaciones con useState
+El formulario implementa un sistema de validaciones en dos fases (en tiempo real mediante `onBlur`/`onChange` y globalmente en `onSubmit`):
 
 1. **Nombre Completo o Empresa:** Campo obligatorio, mínimo 3 caracteres, validación alfabética mediante expresión regular.
 2. **Correo Electrónico:** Campo obligatorio con validación estricta de formato RFC (`/^[^\s@]+@[^\s@]+\.[^\s@]+$/`).
@@ -84,7 +75,7 @@ El formulario implementa un riguroso sistema de validaciones en dos fases (en ti
 
 ---
 
-## 💻 5. Instrucciones de Instalación y Ejecución Local
+## 5. Instrucciones de Instalación y Ejecución Local
 
 Para clonar y poner en marcha el proyecto en tu computadora local:
 
@@ -94,9 +85,9 @@ Para clonar y poner en marcha el proyecto en tu computadora local:
 
 ### Pasos de ejecución:
 
-1. **Clonar o descargar el repositorio:**
+1. **Clonar el repositorio:**
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/Luisst32/landing-servicios.git
    cd landing-servicios
    ```
 
@@ -118,20 +109,12 @@ Para clonar y poner en marcha el proyecto en tu computadora local:
 
 ---
 
-## 📋 6. Entregables de la Práctica (Rúbrica de Evaluación)
+## 6. Repositorio
 
-| Requerimiento | Enlace / Estado |
-| :--- | :--- |
-| **Repositorio GitHub:** | `[Pegar aquí el enlace del repositorio público de GitHub]` |
-| **Video Demostrativo (Drive):** | `[Pegar aquí el enlace del video de demostración en Google Drive]` |
-| **Duración del video:** | Máximo 3 minutos, grabado desde computador |
-| **Calificación esperada:** | 10 / 10 según la rúbrica institucional UNEMI |
+- **Repositorio en GitHub:** [https://github.com/Luisst32/landing-servicios](https://github.com/Luisst32/landing-servicios)
 
 ---
 
-## 👨‍💻 Autor(es)
+## Autor
 
-- **Estudiante:** Luis David Santana
-- **Carrera:** Ingeniería de Software (UNEMI)
-- **Docente de la Asignatura:** Ing. Rodrigo Josué Guevara Reyes
-- **Docente de la Práctica:** Ing. Mariana Madeleine Almache Sanisaca
+- Luis David Santana
