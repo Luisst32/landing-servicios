@@ -120,4 +120,4 @@ Para clonar y poner en marcha el proyecto en tu computadora local:
 - Luis Peñafiel
 - Melanie Bermeo
 - Kevin Paul
-- Christina Moina
+- Christina Moina Parraga
